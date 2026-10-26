@@ -1,0 +1,31 @@
+{
+  "primary_metric": "retention_7",
+  "comparison": "gate_40 minus gate_30",
+  "alpha": 0.05,
+  "alternative": "two-sided",
+  "players": 90189,
+  "unique_players": 90189,
+  "repeated_id_rows": 0,
+  "missing_values": {
+    "userid": 0,
+    "version": 0,
+    "sum_gamerounds": 0,
+    "retention_1": 0,
+    "retention_7": 0
+  },
+  "effect_pp": -0.8201298315205889,
+  "z_stat": -3.164358912748191,
+  "p_value": 0.001554249975614329,
+  "ci_method": "newcomb",
+  "confidence_level": 0.95,
+  "ci_lower_pp": -1.3281940871914846,
+  "ci_upper_pp": -0.312130268876128,
+  "python_version": "3.12.10",
+  "package_versions": {
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2"
+  }
+}

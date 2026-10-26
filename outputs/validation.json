@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-26",
+  "execution": "All seven code cells executed in order in a fresh local Jupyter kernel.",
+  "all_checks_passed": true,
+  "checks": {
+    "notebook_schema_valid": true,
+    "seven_code_cells_executed": true,
+    "no_cell_errors": true,
+    "unique_player_rows": true,
+    "no_repeated_player_ids": true,
+    "no_missing_values": true,
+    "group_counts_match": true,
+    "return_counts_match": true,
+    "z_matches_walkthrough": true,
+    "p_matches_walkthrough": true,
+    "effect_matches": true,
+    "interval_matches": true,
+    "figure_exists": true,
+    "original_notebook_unchanged": true,
+    "raw_csv_copy_matches_source": true,
+    "local_document_links_resolve": true
+  },
+  "raw_csv_sha256": "9f53027065840672e77303281289988371d4a6b67c7dcd3bd4e6306a2a263dc8",
+  "source_notebook_sha256": "904604aa971996138091104966dfa874814317bbe3607126eb7172778e496224",
+  "python_version": "3.12.10",
+  "package_versions": {
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2"
+  }
+}
